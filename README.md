@@ -13,7 +13,7 @@ _______________
 	$ pkg install git
 	$ pkg install python2
 	$ git clone https://github.com/WH1T3-E4GL3/eagle-dos.git
-	$ cd eagle-dos
+	$ cd eagle-dos.py
 	$ git pull
 	$ python2 eagle-dos.py
  
