@@ -2,14 +2,12 @@
 # Author - white eagle
 # zoom hackers
 
-light weight dos attack tool to attack to a single port to any network.
+The script is a basic implementation of a UDP flood attack, which is a type of denial-of-service (DoS) attack.
 
 
-This is a  tool used for single port ddos attack. As  it attacks to a single port you can target a specific service/port .
-
+This is a  tool used for ddos attack from port 1 to port 65534.
 You can attack to any network or to an android phone,a computer,a router or a website with their ip address and any port
 
-eg : An android device with ip addressn192.168.1.71 through port 80 (Need to be on the same network)
 
 commands
 _______________
