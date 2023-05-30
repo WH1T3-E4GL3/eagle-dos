@@ -1,6 +1,5 @@
 # eagle-dos
 # Author - white eagle
-# zoom hackers
 
 The script is a basic implementation of a UDP flood attack, which is a type of denial-of-service (DoS) attack.
 
