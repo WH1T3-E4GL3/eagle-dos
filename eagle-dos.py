@@ -25,7 +25,7 @@ print("                    $$\   $$ |                                           
 print("                    \$$$$$$  |                                                  ")
 print("                     \______/                                                   ")
 print()
-print("[" + B + "" + R + "#" + N + "] " + B + "" + R + "Author : White Eagle" + N + "   Eagle Dos From - " + B + "" + R + "Zoom Hackers" + N)
+print("[" + B + "" + R + "#" + N + "] " + B + "" + R + "Author : White Eagle" + N + "   Eagle Dos From - " + B + "" + R + "WH1T3" + N)
 print()
 print("\033[32m================================================================\033[0m")
 print("\033[32mTool devoloped : white-eagle\033[0m")
