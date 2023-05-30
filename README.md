@@ -1,6 +1,8 @@
 # eagle-dos
 # Author - white eagle
 
+# This is only for educational purpose and so, it is a simple implementation of dos/ddos attack script.
+
 The script is a basic implementation of a UDP flood attack, which is a type of denial-of-service (DoS) attack.
 
 
@@ -26,7 +28,5 @@ Tool devoloped by white eagle.
 Github   : https://github.com/WH1T3-E4GL3
 Telegram : https://t.me/Ka_KsHi_HaTaKe
 	
-Screenshort
-	
 
-![Screenshot_2023-01-03_00_00_39](https://user-images.githubusercontent.com/118425907/210303061-327641e9-03f3-497f-a24b-cb7ecc01a991.png)
+	
